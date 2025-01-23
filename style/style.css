@@ -1,5 +1,172 @@
+/* #region common */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: serif;
+}
+
+:root{
+    --var-light-btn: #0061fe;
+}
+
+
+/* #endregion common */
+
+/* #region debug */
+
+.debug{
+    *{
+        border: 1px dotted black;
+    }
+}
+
+/* endregion debug */
+
+/* #region utilities */
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col{
+    width: auto;
+    flex-basis: auto;
+    margin: 0 -1rem;
+}
+
+[class^="col"] {
+    padding: 1rem;
+}
+
+.col-1{
+    width: calc(100% / 12 * 1);
+}
+
+.col-2{
+    width: calc(100% / 12 * 2);
+}
+
+.col-3{
+    width: calc(100% / 12 * 3);
+}
+
+.col-4{
+    width: calc(100% / 12 * 4);
+}
+
+.col-5{
+    width: calc(100% / 12 * 5);
+}
+
+.col-6{
+    width: calc(100% / 12 * 6);
+}
+
+.col-7{
+    width: calc(100% / 12 * 7);
+}
+
+.col-8{
+    width: calc(100% / 12 * 8);
+}
+
+.col-9{
+    width: calc(100% / 12 * 9);
+}
+
+.col-10{
+    width: calc(100% / 12 * 10);
+}
+
+
+.col-11{
+    width: calc(100% / 12 * 11);
+}
+
+
+.col-12{
+    width: calc(100% / 12 * 12);
+}
+
+.d-flex{
+    display: flex;
+}
+
+.l-none{
+    list-style: none;
+}
+
+.light-btn{
+    background-color: #0061fe;
+    padding: 0.5rem;
+    color: white;
+    text-decoration: none;
+    font-size: small;
+}
+
+/* #endregion utilities */
+
+/* #region Header */
+
+header{
+    background-color: white;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    font-size: small;
+    z-index: 200;
+
+    #tool-hd{
+        align-items: center;
+        font-size: larger;
+
+        #nav-column1{
+
+            ul{
+                align-items: center;
+                gap: 1rem;
+                margin-left: 1rem;
+
+                li{
+                    border-bottom: 4px solid transparent;
+
+                    a{
+                        text-decoration: none;
+                        color: black;
+                    }
+
+                    &:hover{
+                        border-color: red;
+                    }
+                }
+            }
+        }
+
+        #nav-column2{
+
+            ul{
+                justify-content: end;
+                gap: 1rem;
+
+                li{
+                    padding: 5px;
+    
+                    a{
+                        text-decoration: none;
+                        color: black;
+                    }
+                }
+
+                .light-btn{
+                    
+                    a{
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
 }
