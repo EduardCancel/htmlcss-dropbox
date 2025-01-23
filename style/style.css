@@ -125,6 +125,14 @@
 .max-width-100{
     max-width: 100%;
 }
+
+.bold{
+    font-weight: bold;
+}
+
+.light-check{
+    color: #0061fe;
+}
 /* #endregion utilities */
 
 /* #region Header */
@@ -206,8 +214,8 @@ header{
         position: relative;
 
 
-        ..shadow{
-            font-size: 4rem;
+        .shadow{
+            font-size: 3rem;
             position: absolute;
             bottom: 0;
             color: black;
@@ -227,5 +235,37 @@ header{
     .col-9{
         flex-wrap: nowrap;
         margin-bottom: -4rem;
+    }
+}
+/* #endregion jumbotron */
+
+/* #region business-plan */
+
+#business-plan{
+    margin-top: 9rem;
+    border-top: 1px solid gray;
+
+    #content-business{
+        margin-top: 4rem;
+
+        h2{
+            text-align:left
+            font-size: 60px;
+        }
+        .card{
+            border: 1px solid;
+            height: 100%;
+            margin-left: -1rem;
+
+            .top-card{
+                text-align: center;
+                border-bottom: 1px solid;
+                margin-bottom: 1rem;
+            }
+            
+            li{
+                margin-bottom: 1rem;
+            }
+        }
     }
 }
