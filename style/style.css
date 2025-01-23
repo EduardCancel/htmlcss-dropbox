@@ -299,3 +299,29 @@ header{
     
     }
 }
+/* #endregion busnines-plan */
+
+/* #region img-partner */
+
+#description-img-partner{
+    
+    h3{
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    .button-partner{
+    
+        padding-top: 2rem;
+        a{
+            text-decoration: none;
+            padding: 0.5rem;
+            border: 1.5px solid black;
+            color: black
+        }
+    }
+}
