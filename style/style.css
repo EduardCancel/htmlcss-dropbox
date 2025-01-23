@@ -267,5 +267,35 @@ header{
                 margin-bottom: 1rem;
             }
         }
+
+        .col-12{
+
+            border: 1px soldi;
+            margin-top: 4rem;
+        }
+
+        .top-card{
+            text-align: center;
+            margin-bottom: 1rem;
+            border-bottom: 1px solid;
+        }
+
+        ul{
+            h3{
+                margin-bottom: 1rem;
+            }
+
+            h4{
+                margin-bottom: 2rem;
+            }
+
+
+            #button-1{
+                width: 30%;
+                padding-top: 2px;
+                text-align: end;
+            }
+        }
+    
     }
 }
