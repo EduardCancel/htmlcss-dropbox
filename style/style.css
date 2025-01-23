@@ -145,6 +145,17 @@
 .light-link{
     color: #0061fe;
 }
+
+.w-20{
+    width: 20%;
+}
+
+.rules{
+    width: 40%;
+    padding: 0.5rem;
+    margin-bottom: 3rem;
+    font-size: small;
+}
 /* #endregion utilities */
 
 /* #region Header */
@@ -211,6 +222,7 @@ header{
 
 /* #endregion Header */
 
+/* #region Main */
 /* #region Jumbotron */
 
 #jumbotron{
@@ -363,5 +375,31 @@ header{
             margin-bottom: 4rem;
             font-size: 2rem;
         }
+    }
+}
+
+/* #endregion azioni */
+
+/* #endregion Main */
+
+/* #region Footer */
+
+footer{
+    background-color: black;
+    color: white;
+
+    #container-footer{
+
+        h4{
+            margin-top: 5rem;
+            margin-bottom: 1rem;
+        }
+
+        li{
+            margin-bottom: 0.5rem;
+            font-size: 0.8rem;
+            color: lightgrey;
+        }
+
     }
 }
