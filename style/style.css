@@ -133,6 +133,14 @@
 .light-check{
     color: #0061fe;
 }
+
+.margin-left{
+    margin-left: -1rem;
+}
+
+.margin-right{
+    margin-right: -1rem;
+}
 /* #endregion utilities */
 
 /* #region Header */
@@ -323,5 +331,23 @@ header{
             border: 1.5px solid black;
             color: black
         }
+    }
+}
+
+/* #endregion img-partner */
+
+/* #region azioni */
+
+#azioni{
+    h3{
+        font-size: 2rem;
+    }
+
+    h4{
+        margin-bottom: 1.5rem;
+    }
+
+    p{
+        font-size: small;
     }
 }
