@@ -141,6 +141,10 @@
 .margin-right{
     margin-right: -1rem;
 }
+
+.light-link{
+    color: #0061fe;
+}
 /* #endregion utilities */
 
 /* #region Header */
@@ -349,5 +353,15 @@ header{
 
     p{
         font-size: small;
+    }
+
+    .col-12{
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+
+        h2{
+            margin-bottom: 3rem;
+            font-size: 2.5rem;
+        }
     }
 }
