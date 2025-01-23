@@ -107,6 +107,24 @@
     font-size: small;
 }
 
+.margin-bottom-top{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.second-content{
+    width: 80%;
+    margin: auto;
+}
+
+.primary-content{
+    width: 70%;
+    margin: auto;
+}
+
+.max-width-100{
+    max-width: 100%;
+}
 /* #endregion utilities */
 
 /* #region Header */
@@ -168,5 +186,46 @@ header{
                 }
             }
         }
+    }
+}
+
+/* #endregion Header */
+
+/* #region Jumbotron */
+
+#jumbotron{
+    background-color: #b4d0e7;
+    font-size: medium;
+    padding-top: 6rem;
+
+    h1{
+        font-size: 4rem;
+    }
+
+    .col-3{
+        position: relative;
+
+
+        ..shadow{
+            font-size: 4rem;
+            position: absolute;
+            bottom: 0;
+            color: black;
+        }
+    }
+
+    #free-prove{
+        a{
+            padding: 0.5rem;
+        }
+    }
+
+    #cancella{
+        color: black;
+    }
+
+    .col-9{
+        flex-wrap: nowrap;
+        margin-bottom: -6rem;
     }
 }
